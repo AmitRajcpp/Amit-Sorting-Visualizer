@@ -1,0 +1,47 @@
+body {
+    font-family: 'Island Moments', cursive;
+    font-size: 40px;
+    padding: 0 5px 5px 0;
+    line-height: 1;
+    
+}
+h1{
+    color: #000000;
+    
+}
+.flex-container{
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+    background-color: #dbbbbb;
+    align-items: flex-end;
+    align-content: center;
+}
+.headeredit{
+    background-color: #47fff9;
+    /* //margin: 0 0 0 0; */
+}
+
+.flex-item{
+    background: cyan;
+    border: 3pt solid black;
+    width: 15px;
+    margin-right: 0.5%;
+    transition: 0.1s all ease;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr 1fr;
+    background-color: #ffff73;
+}
+
+#input{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
